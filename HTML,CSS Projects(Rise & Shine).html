@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <!--fontawesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color:white;
+            color: #333;
+        }
+        header {
+            background-color:white;
+            color: rgb(74, 52, 95);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo h1 {
+            margin: 0;
+            font-size: 40px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: rgb(10, 10, 10);
+            text-decoration: none;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            color:darkmagenta;
+            font-style:inherit;
+            font-size: 25px;
+           }
+         
+        nav button{
+            color: rgb(10, 10, 10);
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(131, 131, 211);
+            border: none;
+        }
+        .logo2{
+            background-color: white;
+            display: flex;
+            -ms-flex-item-align:start;
+            
+        }
+         
+        .head{
+            
+            background-color: white;
+            color: rgba(25, 25, 87, 0.925);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:65px;
+            margin-top: 200px;
+            align-items: center;
+            margin-left: 80px;
+            animation:movetext 3s linear infinite;
+            white-space: nowrap;
+            font-weight:bolder;
+
+        }
+        
+        @keyframes movetext {
+            0%{
+                transform: translate(20%);
+            }
+            100%{
+                transform: translate(-20%);
+            }
+        }
+        .para{
+            margin-top:80px;
+            font-size: 25px;
+            color: black;
+            font-weight: bolder;
+            padding-right: 20px;
+            
+        }
+        .about{
+            font-size: 40px;
+            display: flex;
+            color:rgb(83, 25, 83);
+            font-family: 'Times New Roman', Times, serif;
+            
+            
+        }
+        .logo3{
+            background-color: white;
+            display: flex;
+            margin-left: 250px;
+            padding-right: 100px;
+            
+        }
+        .info{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            color: black;
+            padding-right: 60px;
+        }
+        .mine{
+            background-color: lightpink;
+            color: black;
+            border-radius: 20px;
+        }
+        .mine:hover{
+            
+            font-style:inherit;
+            font-size: 17px;
+            
+           }
+           /*line4*/
+        .line4{
+            display: flex;
+            background-color: white;
+            }
+        
+
+        .line4 > div {
+            background-color:white;
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 50px;
+            justify-content: space-evenly;
+            margin-left: 50px;
+            border: solid 1px black;
+            animation:movetext 3s linear infinite;
+            white-space: nowrap;
+            color: black;
+            border-radius: 20px;
+       }
+       @keyframes movetext {
+            0%{
+                transform: translate(20%);
+            }
+            100%{
+                transform: translate(-20%);
+            }
+        }
+        /*line6*/
+       .foc{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 45px;
+        color: rgb(9, 9, 32);
+        padding-left: 500px;
+        
+        
+       }
+       .teach{
+         padding-bottom: 50px;
+         color: black;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+       /*line5*/
+       .line5{
+            background-color: white;
+            display: flex;
+            
+
+       }
+       .about1{
+            font-size: 20px;
+            color:rgb(83, 25, 83);
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 150px;
+            padding-top: 75px;
+            padding-right: 20px;
+            }
+       .info1{
+           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 19px;
+            color: black;
+            padding-left: 150px;
+            padding-right: 30px;
+            margin-bottom: 30px;
+        }
+       .logo5{
+            background-color: white;
+            padding-right: 100px;
+            
+            
+         }
+        span{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            color: rgb(6, 6, 80);
+        }
+        .line6{
+            display: flex;
+            background-color: white;
+        }
+        .line6 > div {
+            background-color:white;
+            width: 350px;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 50px;
+            justify-content: center;
+            margin-left: 50px;
+            border: solid 1px black;
+            animation:css 3s reverse infinite;
+            color: black;
+            border-radius: 20px;
+            
+       }
+       @keyframes css {
+            0%{
+                transform: translate(20%);
+            }
+            100%{
+                transform: translate(-20%);
+            }
+        }
+        /*line6 sec 2*/
+        .ani2{
+            animation:anim 3s linear infinite;
+        }
+        @keyframes anim {
+            0%{
+                transform: translate(20%);
+            }
+            100%{
+                transform: translate(-20%);
+            }
+        }
+        .what{
+         padding-bottom: 22px;
+         color: black;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-size: 16px;
+       }
+       .contact{
+        background-color: white;
+        display: flex;
+        
+       }
+       /*line7 */
+       .co{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 45px;
+        color: rgb(9, 9, 32);
+        padding-left: 500px;
+        
+       }
+       .fo{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-size: 21px;
+        color: rgb(54, 19, 54);
+        padding-left: 70px;
+     }
+       
+       /*line7 sec 2*/
+       .two{
+             margin-left: 450px;
+             margin-top: 80px;
+             font-size: 16px;
+             color:rgb(58, 16, 58);
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       input{
+        border-radius: 10px;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        
+       }
+     .two p{
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+     }
+     .two div{
+        border-radius: 10px;
+        margin-left: 50px;
+        padding:5px;
+        background-color:rgb(3, 40, 54);
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+     }
+     .one{
+        margin-top: 15px;
+        font-size: 25px;
+        margin-left: 8px;
+
+    }
+    
+/*line8*/
+     
+     footer{
+        background-color: rgb(158, 119, 194);
+     }
+     .footer{
+        display: flex;
+        background-color:rgb(221, 221, 153);
+        justify-content: space-around;
+     }
+     
+
+.followup_icons{
+    margin-top: 20px;
+    color: white;
+}
+
+.followup_icons > i{
+    font-size: 27px; 
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%,100%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.2);
+    }
+}
+
+#wp{
+    padding-left: 6px;
+}
+#wp:hover{
+  color: rgb(9, 155, 9);
+  font-size: 29px;
+  
+}
+#insta:hover{
+  color: #E4405F;
+  font-size: 29px;
+  
+}
+#fb:hover{
+  color: rgb(6, 6, 177);
+  font-size: 29px;
+  
+}
+#x:hover{
+  color: black;
+  font-size: 29px;
+  
+}
+#ln:hover{
+  color:rgb(248, 54, 248);
+  font-size: 29px;
+}
+.bb{
+    border-radius: 7px;
+    background-color: rgb(48, 48, 70);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 17px;
+}
+.icon{
+     display: flex;
+    justify-content: space-between;
+}
+#icon2{
+  font-size: 30px;
+}
+     
+
+     /*Responsive*/
+     /*navbar*/
+
+     @media(max-width:400px){
+       header{
+        flex-direction: column;
+       } 
+       .logo{
+        flex-direction: column;
+       }
+   
+       nav ul{
+        flex-direction: column;
+        align-items: self-start;
+         padding: 0;
+
+      }
+      nav ul li{
+          margin-left: 0;
+         margin-bottom: 5px;
+       }
+   
+    }
+    
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <!--navbar-->
+        <div class="logo">
+            <h1>Rise & Shine</h1>
+        </div>
+        <nav>
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><button style="border-radius: 10px;"><a href="#">Contact</a></button></li>
+                
+            </ul>
+        </nav>
+     </header>
+ <!--line2-->
+ <section class="logo2">
+    <a target="_blank" href="#">
+      <img src="logo2.jpg" alt="Cinque Terre" width="700" height="600">
+    </a>
+    <h3 class="head">Welcome to<br>Rise & Shine</h3>
+    <p class="para">Your Gateway To Quality Education!!</p>
+</section>
+<!--line3-->
+<section class="logo3">
+    <section>
+    <h3 class="about">About Us</h3>
+    <p class="info">An "IT institute" refers to an educational institution focused on training 
+        individuals in the field of Information Technology, providing them with the necessary 
+        skills to work in various IT roles like software development, network administration, 
+        cybersecurity, and more, typically offering courses in programming languages. 
+        </p>
+        <button class="mine"><p>Know More</p></button>
+</section>
+    <a target="_blank" href="#">
+      <img src="logo3.jpg" alt="Cinque Terre" width="400" height="300">
+    </a>
+</section>
+<!--line4-->
+
+    <h2 class="foc">We Focus On</h2>
+    <div class="line4">
+    <div><a target="_blank" href="#">
+        <img src="teaching.jpg" alt="Cinque Terre" width="120" height="80">
+      </a>
+      <p class="teach">Good Teaching Skills</p>
+    </div>
+    <div><a target="_blank" href="#">
+        <img src="logo1.1.png" alt="Cinque Terre" width="120" height="80">
+      </a>
+      <p class="teach">Continuos Learning</p>
+      </div>
+    <div><a target="_blank" href="#">
+        <img src="logo1.2.png" alt="Cinque Terre" width="120" height="80">
+      </a>
+      <p class="teach">Learning For Python <br>Full Stack course</p></div>
+    <div><a target="_blank" href="#">
+        <img src="java.png" alt="Cinque Terre" width="120" height="80">
+      </a>
+      <p class="teach">Learning For Java <br>Full Stack course</p></div>
+    <div><a target="_blank" href="#">
+        <img src="AI.webp" alt="Cinque Terre" width="120" height="80">
+      </a>
+      <p class="teach">Learning For Artificial <br>Intelligence</p></div>
+</div>
+
+<!--line5-->
+<div class="line5">
+    <div><h5 class="about1">My institutes offer many benefits, including job placement assistance, 
+        networking opportunities, and career advancement!!</h5>
+         <p class="info1"><span>Resume building:</span>Institutes help students build their resumes,
+            <span>Interview preparation:</span>Institutes help students prepare for interviews,
+            <span>Job Matching</span>Institutes help students find jobs that match their skills and interests.
+        </p></div>
+    <div class="logo5"><a target="_blank" href="#">
+        <img src="y2.jpg" alt="Cinque Terre" width="500" height="400">
+      </a>
+    </div>
+</div>
+<!--line6-->
+<h2 class="foc">Our Services</h2>
+<div class="line6">
+    <div><a target="_blank" href="#">
+        <img src="y1.svg" alt="Cinque Terre" width="150" height="120">
+      </a>
+      <p class="what">Full-stack development 
+          refers to the design,
+          implementation and testing
+          of both the client,and 
+          server sides of a web application.
+          A Python full-stack developer 
+          is proficient in handling the 
+          front- and back-end  of a website
+          or an application</p></div>
+    <div><a target="_blank" href="#">
+        <img src="y3.jpg" alt="Cinque Terre" width="130" height="100">
+      </a>
+      <p class="what">Java Full Stack Development refers to the development of both front-end (client-side) and back-end (server-side) parts of a web application. This involves using Java programming language for server-side development, along with front-end technologies like HTML, CSS, JavaScript, and frameworks like Angular.</p></div>
+    <div><a target="_blank" href="#">
+        <img src="y4.avif" alt="Cinque Terre" width="140" height="90">
+      </a>
+      <p class="what">Artificial intelligence (AI) is a technology that allows computers to perform tasks that typically require human intelligence, such as learning, problem solving, and decision making. </p></div>
+    </div><br>
+<!-- line6 sec2-->
+    <section class="ani2">
+   <div class="line6">
+     <div><a target="_blank" href="#">
+    <img src="y5.jpg" alt="Cinque Terre" width="140" height="90">
+     </a>
+    <p class="what">Digital marketing, also known as online marketing, is the use of the internet and other digital channels to promote brands and connect with customers. </p></div>
+    <div><a target="_blank" href="#">
+    <img src="y6.png" alt="Cinque Terre" width="140" height="90">
+    </a>
+    <p class="what">Data science is the process of using scientific methods to analyze and interpret large amounts of data. It involves gathering, analyzing, and interpreting data to find patterns and trends. </p></div>
+    <div><a target="_blank" href="#">
+    <img src="y7.jpg" alt="Cinque Terre" width="140" height="90">
+    </a>
+    <p class="what">Cloud computing is the delivery of computing services over the internet. It allows users to access resources like storage, servers, and software on demand. </p></div>
+</div>
+</section>
+<!--line7-->
+<h2 class="co">Contact Us</h2>
+<div class="contact">
+<div class="one">
+    <i class="fa-solid fa-id-card-clip"></i>
+    <p class="fo">Manju R</p><br>
+    
+    <i class="fa-solid fa-envelope"></i>
+    <p class="fo">manju.ramar3@gmail.com</p>
+  
+    <i class="fa-solid fa-phone-volume"></i>
+    <p class="fo">9361256820</p>
+  
+    <i class="fa-solid fa-location-dot"></i>
+    <p class="fo">5/207,pkd street,<br>ukkadam,coimbatore</p>
+</div>
+<!--line7 sec2-->
+
+<div class="two">
+    <label for="username">Your Name:</label><br>
+    <input type="text" id="username" placeholder="enter Name"><br><br>
+    <label for="tel">Enter Your Ph No:</label><br>
+    <input type="phone" id="phone" placeholder="+91 9308765421"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" placeholder="enter email"><br><br>
+    <label for="pwd">Password:</label><br>
+    <input type="text" id="pwd" placeholder="enter password"><br>
+    <p style="margin-left:30px; margin-top:0px; padding-left:5px; font-size:20px">Forget password</p><br>
+    <div>Send Message</div><br>
+</div>
+</div>
+<!--line8-->
+<footer>
+    <div class="footer">
+        
+        <div class="fu2"><h4>Services<br></h4>
+            <p>Python Full Stack<br>
+                Java Full Stack<br>
+                Artificial Interlligenes<br>
+                Data Science<br>
+                Digital Marketing<br>
+                Cloud Computing
+             </p>
+        </div>
+        <div class="fu3"><h3> Get In Touch</h3><br>
+            <div class="icon">
+            <div><i class="fa-brands fa-square-whatsapp" id="wp"></i>
+            </div>
+            <div><i class="fa-brands fa-square-instagram" id="insta"></i>
+            </div>
+            <div><i class="fa-brands fa-facebook" id="fb" ></i>
+            </div>
+            <div><i class="fa-brands fa-linkedin" id="ln"></i>
+            </div>
+        </div>
+            <p class="bb">Contact Us</p>
+        
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
