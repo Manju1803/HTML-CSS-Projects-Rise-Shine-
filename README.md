@@ -18,13 +18,7 @@ Welcome to the **Rise & Shine** project — a clean, modern, and responsive webs
 - CSS3 (with animations and responsiveness)
 - [Font Awesome 6.7.2](https://cdnjs.com/libraries/font-awesome)
 
-## 📸 Screenshots
 
-| Home Section | About Section | Services |
-|--------------|---------------|----------|
-| ![Home](screenshots/home.png) | ![About](screenshots/about.png) | ![Services](screenshots/services.png) |
-
-> _Add screenshots in the `screenshots/` folder to make this section work._
 
 
 
